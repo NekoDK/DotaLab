@@ -43,7 +43,7 @@ fun Reviews(modifier: Modifier) {
                 repeat(5) {
                     Image(
                         modifier = modifier.size(size = 12.dp),
-                        painter = painterResource(R.drawable.star_1),
+                        painter = painterResource(R.drawable.star),
                         contentDescription = null
                     )
                 }
